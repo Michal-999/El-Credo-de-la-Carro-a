@@ -87,3 +87,18 @@ a.btn {
   border: 2px solid black; /* Border style */
   background-color: white; /* Background color */
 }
+}
+.containerpreciobot {
+  background-color: #303030;
+  max-width:100%;
+}
+.bookimageprecio {
+  padding-top: 15px;
+  padding-bottom:30px;
+}
+.contacto {
+  padding-top: 30px;
+  Padding-bottom:30px;
+  background-color: #1e1d1f;
+  color:#ececec;
+}
