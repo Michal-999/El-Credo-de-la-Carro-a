@@ -38,6 +38,9 @@ body {
   padding-top: 20px;
   color: #ececec;
 }
+.titulopoemas {
+  padding-top:30px;
+}
 .poemas{
   letter-spacing: .2rem;
 }
