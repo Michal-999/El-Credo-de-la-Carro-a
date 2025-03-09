@@ -1,103 +1,200 @@
 body {
-  margin: 0cm;
-  background-color: #ececec;
-}
-.navbar {
-  background-color: rgb(236 236 236);
-  
-}
-.nav-link{
-  color: black;
-}
-.cover {
-  padding-top: 40px;
-  height: 200px;
-  background-color: #ececec;
-}
-.container {
-  top: 20px;
-  bottom: 200px;
-}
-.containerbotbot {
-  height: 100px;
-  background-color: #ececec;
-}
-.containerbot {
-  background-color: #303030;
-}
-.containerprecio: {
+    margin: 0cm;
     background-color: #ececec;
   }
-}
-.containertop {
-  background-color: #ececec;
-  height: 44px;
-}
-.sinopsis {
-  bottom: 20px;
-  padding-top: 20px;
-  color: #ececec;
-}
-.titulopoemas {
-  padding-top:30px;
-}
-.poemas{
-  letter-spacing: .2rem;
-}
-.entrelasramasylavida{
-  padding-top: 50px;
-  color: #39575A;
-}
-.poemaentreramas{
-  font: 12px;
-  display:inline-block;
-}
-.containerblank1 {
-  background-color: #ececec;
-  top: 100px;
-}
-.precio {
-  padding-top: 20px;
-}
-.botoncomprar {
-  padding-bottom: 20px;
-}
-a.btn {
-  padding: 5px 6px;
-  border: 1px outset buttonborder;
-  border-radius: 3px;
-  color: buttontext;
-  background-color: buttonface;
-  text-decoration: none;
-  background-color: #8b0000;
-  color: #ffffff;
-}
-
-.h1 {
-  font-family: "Lulo Clean", sans-serif, "Lulo Clean One Bold", "Didot", "Avenir",
-    "Times New Roman", "League Spartan";
-}
-
-.league-spartan-<uniquifier > {
-  font-family: "League Spartan", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.empty-box {
-  width: 200px; /* Width of the box */
-  height: 100px; /* Height of the box */
-  border: 2px solid black; /* Border style */
-  background-color: white; /* Background color */
-}
-.containerpreciobot {
-  background-color: #303030;
-  max-width: 100%;
-}
-.bookimageprecio {
-  padding-top: 15px;
-  padding-bottom:30px;
-}
+  .row {
+    --bs-gutter-x: 0;
+  }
+  .navbar {
+    background-color: rgb(236 236 236);
+  }
+  
+  .navbar-nav > .active > a {
+    color: black;
+    background-color: rgb(236 236 236);    
+  }
+  .nav-item > a:hover {
+    color: #8b0000;
+  }
+  .nav-link{
+    color: black;
+  }
+  .inside_links{
+    display: none; 
+  }
+  
+  .cover {
+    padding-top: 40px;
+    height: 200px;
+    background-color: #ececec;
+  }
+  .containertej {
+    top: 20px;
+    bottom: 200px;
+  }
+  .containerbotbot {
+    height: 100px;
+    background-color: #ececec;
+  }
+  .containerbot {
+    background-color: #303030;
+  }
+  
+  .containerprecio {
+      padding-left: 20px;
+    }
+  
+  .containertop {
+    background-color: #ececec;
+    height: 44px;
+  }
+  .sinopsis {
+    bottom: 20px;
+    padding-top: 20px;
+    color: #ececec;
+  }
+  .poemas{
+    letter-spacing: .2rem;
+  }
+  .entrelasramasylavida{
+    padding-top: 50px;
+    color: #39575A;
+  }
+  .poemaentreramas{
+    font: 12px;
+    display:inline-block;
+    padding-bottom: 20px;
+  }
+  .containerblank1 {
+    background-color: #ececec;
+    top: 100px;
+  }
+  .containertiendabajo{
+    background-color: #303030;
+    border: 1px outset
+  }
+  .icono_tienda{
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .precio {
+    padding-top: 40px;
+  }
+  .botoncomprar {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .containerbtn {
+    size: 10px 10px;
+    color: #8b0000;
+  }
+  a.btn {
+    padding: 5px 20px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #ffffff;
+    text-decoration: none;
+    background-color: #8b0000;
+    color: #ffffff;
+  }
+  .h1 {
+    font-family: "Lulo Clean", sans-serif, "Lulo Clean One Bold", "Didot", "Avenir",
+      "Times New Roman", "League Spartan";
+  }
+  
+  .league-spartan- <uniquifier> {
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .bookimageprecio {
+    padding-top: 15px;
+    padding-bottom:30px;
+  }
+  .containerprecio {
+    color: #ececec;
+    padding-left: 50px;
+  }
+  .titulo_tienda {
+    padding:20px;
+    color:  #ececec;
+  }
+  
+  .contacto {
+    padding-top: 30px;
+    Padding-bottom:30px;
+    background-color: #1e1d1f;
+    color:#ececec;
+  }
+  
+  .container-fotostienda{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    border-radius: 0.5rem;
+    
+  }
+  .slider-wrapper{
+    position: relative;
+    max-width: 15rem;
+    min-width:8rem;
+    margin: 0 auto;
+    margin-right: 2rem;
+    left: 50px;
+    
+  }
+  .slider{
+    display: flex;
+    aspect-ratio: 9/16;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+  }
+  .slider::-webkit-scrollbar {
+      display: none;
+  }
+  .slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+  }
+  .slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: tranlatex(-50%);
+    z-index: 1;
+  }
+  .slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+  }
+  .slider-nav a:hover {
+    opacity: 1;
+  }
+  .col-sm-6 { 
+    padding-left: 30px;
+  }
+  
+  .proximo_evento {
+    padding: 40px;
+  }
+  .google_maps_atenea {
+    padding: 20px;
+  }
+ 
 .contacto {
   padding-top: 30px;
   Padding-bottom:30px;
